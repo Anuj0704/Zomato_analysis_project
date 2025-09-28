@@ -45,7 +45,7 @@ df.head()
 # Getting summary of the DataFrame.
 df.info()
 ```
-![Output](info_table.png)
+![Output](info.png)
 
 Conclusion: There is no null value in the DataFrame.
 
@@ -87,7 +87,7 @@ max_votes=df['votes'].max()
 restaurant_with_max_votes=df.loc[df['votes']==max_votes,'name']
 restaurant_with_max_votes
 ```
-![Output](highest_vote_table.png)
+![Output](highest_vote.png)
 
 
 **6.Online Order Availability**
